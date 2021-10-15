@@ -1,0 +1,536 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1152px;
+  margin: 64px auto 0;
+}
+
+.filter {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filterBox {
+  width: 95px;
+  height: 40px;
+  color: #FFFFFF;
+  background: url(../public/GEM_PURPLE_2.png);
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 16px;
+
+  cursor: pointer;
+}
+
+.filterBoxActive {
+  width: 95px;
+  height: 40px;
+  color: #FFFFFF;
+  background: url(../public/GEM_PURPLE_1.png);
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.filterBox img {
+  vertical-align: middle;
+  padding-left: 3px;
+}
+
+.filterBoxActive img {
+  vertical-align: middle;
+  padding-left: 3px;
+}
+
+.filterBoxR {
+  width: 106px;
+  height: 40px;
+  color: #FFFFFF;
+  background: url(../public/filter-bg.png);  
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.filterBoxR img {
+  vertical-align: middle;  
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 48px 0px;  
+
+  border-radius: 24px;
+  border: 6px solid #9945FF;
+  --border-image-source: linear-gradient(180deg, #9945FF 0%, #00F19A 121.26%);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+
+  padding: 0px 24px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 72px;
+  color: #7A7E80;
+}
+
+.bg1 { background: rgba(26, 27, 35, 0.9); }
+.bg2 { background: rgba(29, 4, 49, 0.9); }
+.bg3 { background: rgba(14, 15, 15, 0.9); }
+
+.border1 { border-radius: 24px 24px 0px 0px; }
+.border2 { border-radius: 0px 0px 24px 24px; }
+.mt8 { margin-top: 8px;}
+.pinter { cursor: pointer; }
+
+.white {
+  color: #FFFFFF;
+}
+
+.gray {
+  color: #7A7E80;
+}
+
+.green {
+  color: #00F19A;
+}
+
+.nav {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.navLink {
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  
+  /* Ink/Lightest */
+  
+  color: #7A7E80;
+}
+
+.navLink img {
+  vertical-align: text-top;
+}
+
+.navLink span {
+  margin-left: 5px;
+}
+
+.battleInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+.title {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 121% */
+  
+  letter-spacing: 0.5px;
+  
+  color: #FFFFFF;
+}
+
+.location {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  
+  /* Ink/Lightest */
+  
+  color: #7A7E80;  
+  padding-left: 24px;
+}
+
+.pricePoll {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 116% */
+  
+  text-align: right;
+  letter-spacing: 0.5px;
+  
+  /* Ink/Lightest */
+  
+  color: #7A7E80;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.pricePoll img {
+  vertical-align: text-top;
+}
+
+.pricePoll span {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 102% */
+  
+  text-align: right;
+  letter-spacing: 0.5px;
+  
+  color: #27B18A;
+  padding-left: 16px;
+  padding-right: 4px;
+}
+
+.level {
+  display: flex;
+  align-items: center;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  
+  /* Ink/Lightest */
+  
+  color: #7A7E80;  
+}
+
+.level img {
+  margin-left: 8px;
+}
+
+.distance {
+  margin-left: 24px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  
+  /* Ink/Lightest */
+  
+  color: #7A7E80;
+}
+
+.distance span {
+  padding-left: 8px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  
+  /* Sky/White */
+  
+  color: #FFFFFF;  
+}
+
+.status {
+  margin-left: 24px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  
+  /* Ink/Lightest */
+  
+  color: #7A7E80;
+  
+}
+
+.status span {
+  padding-left: 8px;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  
+  /* Sky/White */
+  
+  color: #FFFFFF;  
+}
+
+.control {
+  margin-left: auto;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.bar {
+  background: #7A7E80;
+  border: 1px solid #7A7E80;
+  margin-bottom: 29px;
+}
+
+.runContainer {
+  display: flex;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  
+  width: 273px;
+  height: 552px;
+  
+  /* Tight / Elevation 6 */
+  
+  filter: drop-shadow(0px 3.5px 14px rgba(0, 0, 0, 0.2));
+  --background-color: red;
+}
+
+.slotItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  
+  width: 253px;
+  height: 37px;
+  margin-bottom: 8px;
+}
+
+.slotNumber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  
+  width: 41px;
+  height: 27px;
+  
+  background: #FDCC4A;
+  border-radius: 4px;  
+}
+
+.rankNumber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+  width: 26px;
+  height: 26px;
+  
+  --background: #323232;
+  border-radius: 26px;
+  background: rgba(240, 248, 255, 0.12);
+  color: #FFFFFF;
+}
+
+.slotNumberBg1 {background: #FDCC4A;}
+.slotNumberBg2 {background: #B4B6B8;}
+.slotNumberBg3 {background: #E86C00;}
+.slotNumberBg4 {background: rgba(240, 248, 255, 0.12);color: #FFFFFF;}
+
+
+.slotInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 200px;
+  height: 37px;
+  
+  background: #1D1F3E;
+  border-radius: 12px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height, or 154% */
+  color: #FFFFFF;  
+
+}
+
+.slotInfo label {
+  margin-left: 8px;
+}
+
+.run {
+  width: 848px;
+  height: 552px;
+  
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/bg-run.png);
+  border-radius: 16px;  
+}
+
+.run canvas {
+  border-radius: 16px;  
+}
+
+.rank {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 16px;
+  width: 848px;
+  height: 86px;
+  --background-color: yellow;
+  margin-left: auto;
+}
+
+.rankItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  width: 87px;
+  height: 37px;
+}
+
+.rankInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 87px;
+  height: 37px;
+}
+
+.rank0 { order: 0; }
+.rank1 { order: 1; }
+.rank2 { order: 2; }
+.rank3 { order: 3; }
+.rank4 { order: 4; }
+.rank5 { order: 5; }
+.rank6 { order: 6; }
+.rank7 { order: 7; }
+.rank8 { order: 8; }
+.rank9 { order: 9; }
+.rank10 { order: 10; }
+.rank11 { order: 11; }
+.rank12 { order: 12; }
+
+.rank0 > .rankNumber {background: #FDCC4A; color: black;}
+.rank1 > .rankNumber {background: #B4B6B8; color: black;}
+.rank2 > .rankNumber {background: #E86C00; color: black;}
+
+.rankInfo img {
+  margin-left: 14px;
+  vertical-align: middle;
+}
+
+.nextBalletContainer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nextBalletContainer label {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 22px;
+  /* identical to box height, or 90% */
+  
+  text-transform: uppercase;
+  
+  /* solana green */
+  
+  color: #00F19A;
+  display: block;
+}
+
+
+.nextBalletBox {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 236px;
+  justify-content: space-between;
+}
+
+.nextGame {
+  --display: flex;
+  --flex-direction: column;
+  --align-items: flex-start;
+  
+  width: 270px;
+  height: 112px;
+  
+  background: linear-gradient(270deg, #1D1F3E 52.6%, rgba(35, 36, 47, 0.2) 100%);
+  /* Fluffy / Elevation 4 */
+  
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+
+  border: 4px solid;
+
+  border-image-source: linear-gradient(180deg, #9945FF 0%, #00F19A 121.26%);
+  border-image: linear-gradient(180deg, #9945FF 0%, #00F19A 121.26%) 1;
+
+  --border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+  /* Inside Auto Layout */
+  
+}
+
+

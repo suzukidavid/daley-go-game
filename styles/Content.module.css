@@ -1,0 +1,15 @@
+.contentContainer {
+  /* bg */
+  display: flex;
+  flex-direction: column;
+  --position: absolute;
+  width: 1440px;
+  --height: 891px;
+  --left: -54px;
+  --top: 57px;
+  background: linear-gradient(180deg, rgba(48, 20, 125, 0) 67.71%, #240F61 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/bg.png');
+  --filter: blur(10px);
+  margin: 0 auto 0;
+  background-color: #240F61;
+  background-repeat: no-repeat;
+}

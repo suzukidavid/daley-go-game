@@ -1,0 +1,410 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1152px;
+  margin: 64px auto 0;
+}
+
+.filter {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filterBox {
+  width: 95px;
+  height: 40px;
+  color: #FFFFFF;
+  background: url(../public/GEM_PURPLE_2.png);
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 16px;
+
+  cursor: pointer;
+}
+
+.filterBoxActive {
+  width: 95px;
+  height: 40px;
+  color: #FFFFFF;
+  background: url(../public/GEM_PURPLE_1.png);
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.filterBox img {
+  vertical-align: middle;
+  padding-left: 3px;
+}
+
+.filterBoxActive img {
+  vertical-align: middle;
+  padding-left: 3px;
+}
+
+.filterBoxR {
+  width: 106px;
+  height: 40px;
+  color: #FFFFFF;
+  background: url(../public/filter-bg.png);  
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.filterBoxR img {
+  vertical-align: middle;  
+}
+
+.details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 48px 0px;  
+
+  border-radius: 24px;
+  border: 2px solid #E3BF4B;
+  --border-image-source: linear-gradient(180deg, #9945FF 0%, #00F19A 121.26%);
+}
+
+.details::before {
+  content: " ";
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: -2px;
+  left: -2px;
+  color: white;
+  background-image: url(/img/LINE_GOLD1.png);
+}
+
+.details_small {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 48px 10px;  
+
+  border-radius: 24px;
+  border: 2px solid #E3BF4B;
+  --border-image-source: linear-gradient(180deg, #9945FF 0%, #00F19A 121.26%);
+  width: 300px;
+  height: 450px;
+  background-color: rgba(26, 27, 35, 0.9);
+}
+
+.details_small::before {
+  content: " ";
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: -2px;
+  left: -2px;
+  color: white;
+  background-image: url(/img/LINE_GOLD1.png);
+}
+.detail_small_bg{
+  background-color: rgba(26, 27, 35, 0.9);
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+
+
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 72px;
+  color: #7A7E80;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 72px;
+
+  padding: 0px 24px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 72px;
+  color: #7A7E80;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  
+  
+
+  padding: 0px 24px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 72px;
+  color: #7A7E80;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+
+  
+  
+
+  padding-top: 20px;
+  padding-left: 24px;
+
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 72px;
+  color: #7A7E80;
+  
+}
+
+.bg1 { background: rgba(26, 27, 35, 0.9); }
+.bg2 { background: rgba(29, 4, 49, 0.9); }
+.bg3 { background: rgba(14, 15, 15, 0.9); }
+
+.border1 { border-radius: 24px 24px 0px 0px; }
+.border2 { border-radius: 0px 0px 24px 24px; }
+.mt8 { margin-top: 8px;}
+.pinter { cursor: pointer; }
+
+.white {
+  color: #FFFFFF;
+}
+
+.gray {
+  color: #7A7E80;
+}
+
+.green {
+  color: #00F19A;
+}
+
+.title {
+  width: 232px;
+  padding-left: 10px;
+}
+
+.location {
+  width: 160px;
+}
+
+.level {
+  width: 150px;
+  text-align: center;
+}
+
+.level img {
+  vertical-align: middle;
+}
+
+.distance {
+  width: 120px;
+  text-align: center;
+}
+
+.entryFee {
+  width: 147px;
+  text-align: center;
+}
+
+.entryFee img {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.prizePool {
+  width: 147px;
+  text-align: center;
+}
+
+.prizePool img {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.runsIn {
+  width: 147px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
+
+.button1{
+  background: url(/img/AvabilableButton.png) no-repeat;
+  width: 144px;
+  height: 52px;
+  border-style: hidden;
+}
+.button2{
+  background: url(/img/Disable.png) no-repeat;
+  width: 144px;
+  height: 52px;
+  border-style: hidden;
+}
+.closeButton{
+  background: url(/img/CloseButton.png) no-repeat;
+  border-style: hidden;
+  width: 70px;
+  height: 16px;
+  padding-right: 100px;
+  
+}
+.selectButton{
+  background: url(/img/select.png) no-repeat;
+  border-style: hidden;
+  width: 155px;
+  height: 50px;
+  padding-right: 10px;
+}
+.cancelButton{
+  background: url(/img/cancel.png) no-repeat;
+  border-style: hidden;
+  width: 150px;
+  height: 50px;
+  
+}
+.homeButton{
+  background: url(/img/HomeButton.png) no-repeat;
+  border-style: hidden;
+  width: 82px;
+  height: 16px;
+  padding-left: 100px;
+}
+.head{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Popuphead{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+.description{
+  padding: 0px 24px 0px 24px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.image{
+  padding-top: 30px;
+}
+
+.popupheader{
+  display: inline;
+}
+
+.closeWord{
+  font-size: 10px;
+  color: white;
+}
+
+.left{
+  flex: 1;
+  
+  max-width: 25%;
+  height: 300px;
+  max-height: 40%;
+  width: 25%;
+  
+   
+}
+
+.middle{
+  flex:1;
+  max-width: 30%;
+  width: 30%;
+  max-height: 60%;
+  height: 700px;
+}
+.right{
+  flex:1;
+  max-width: 40%;
+  width: 40%;
+  max-height: 60%;
+  height: 700px;
+  
+  
+  
+}
+.Popupcontainer{
+  display: flex;
+  width: auto;
+  
+}
+.Popupcontainer1{
+  
+  width: auto;
+  background: url(/img/pickhorse1.png);
+  background-size: 100% 100%;
+  padding-top: 40px;
+  
+}
+.popupImage{
+  padding-top: 10px;
+}
+.info{
+  /* float:right; */
+  padding-left: 20px;
+  padding-top: 50px;
+  /* width: 30%; */
+}
+.modalContent{
+  background-color: black;
+  border: 0px solid #999999;
+  border: 0px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px; /*<!-- HERE I AM!---*/
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+
+  outline: none;
+}

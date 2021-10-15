@@ -1,0 +1,4 @@
+.page {
+  background: linear-gradient(180deg, rgba(48, 20, 125, 0) 67.71%, #240F61 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+  filter: blur(10px);
+}
